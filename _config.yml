@@ -7,8 +7,8 @@ title: Hexo
 subtitle: ''
 description: ''
 keywords:
-author: John Doe
-language: en
+author: Lu Cuicheng
+language: zh
 timezone: ''
 
 # URL
@@ -98,4 +98,6 @@ theme: landscape
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
-  type: ''
+  type: git
+  repo: https://github.com/lucuicheng/lucuicheng.github.io.git
+  branch: master
