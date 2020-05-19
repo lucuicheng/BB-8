@@ -43,6 +43,8 @@ sudo mkdir -p /opt/data/consul
 sudo docker run -d --restart=always -p 8500:8500 -v /opt/data/consul:/consul/data -e CONSUL_BIND_INTERFACE='eth0' --name=consul-master consul agent -server -bootstrap -ui -client='0.0.0.0'
 ```
 
+<!-- more -->
+
 ### 私服
 
 ```shell
