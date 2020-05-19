@@ -711,7 +711,7 @@ firestore:
 # Show Views / Visitors of the website / page with busuanzi.
 # Get more information on http://ibruce.info/2015/04/04/busuanzi
 busuanzi_count:
-  enable: false
+  enable: true
   total_visitors: true
   total_visitors_icon: fa fa-user
   total_views: true
@@ -995,12 +995,3 @@ vendors:
 css: css
 js: js
 images: images
-
-# Post wordcount display settings
-# Dependencies: https://github.com/willin/hexo-wordcount
-post_wordcount:
-  item_text: true
-  wordcount: true         # 单篇 字数统计
-  min2read: true          # 单篇 阅读时长
-  totalcount: false       # 网站 字数统计
-  separated_meta: true
