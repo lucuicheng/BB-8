@@ -1,7 +1,10 @@
 ---
-title: 'docker start command'
+title: 'docker常用命令'
 date: 2019-05-19 10:40:33
-tags: docker
+categories: linux
+tags: 
+  - docker
+  - linux
 ---
 
 ### list docker
