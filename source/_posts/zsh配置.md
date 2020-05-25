@@ -1,5 +1,5 @@
 ---
-title: 'ss5代理的配置基本安装'
+title: 'mbp 环境配置-zsh'
 date: 2018-07-23 10:40:33
 tags: 
   - mac
