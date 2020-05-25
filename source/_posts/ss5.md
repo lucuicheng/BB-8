@@ -1,3 +1,11 @@
+---
+title: 'ss5代理的配置基本安装'
+date: 2020-03-23 10:40:33
+tags: 
+  - linux
+  - ss5
+---
+
 ```shell
  wget https://nchc.dl.sourceforge.net/project/ss5/ss5/3.8.9-8/ss5-3.8.9-8.tar.gz
  

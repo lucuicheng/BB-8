@@ -1,3 +1,12 @@
+---
+title: 'ss5代理的配置基本安装'
+date: 2018-07-23 10:40:33
+tags: 
+  - mac
+  - bash
+  - zsh  
+---
+
 ### zsh 命令配置 
 
 ```shell

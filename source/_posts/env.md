@@ -1,3 +1,11 @@
+---
+title: '环境配置文件'
+date: 2019-11-23 10:40:33
+tags: 
+  - linux
+  - docker
+---
+
 ### .env 文件内容
 
 ```shell

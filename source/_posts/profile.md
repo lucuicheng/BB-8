@@ -1,3 +1,11 @@
+---
+title: 'mbp 环境配置-profile'
+date: 2019-06-23 10:40:33
+tags: 
+  - mac
+  - bash
+---
+
 ###  mac profile 配置文件内容
 
 ```shell
