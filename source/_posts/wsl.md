@@ -1,6 +1,6 @@
 ---
 title: 'windows10 wsl 出现 Exit code 4294967295'
-date: 2020-05-225 16:57:33
+date: 2020-05-25 16:57:33
 tags: 
   - Windows10
   - WSL
