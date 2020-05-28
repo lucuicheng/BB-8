@@ -10,8 +10,10 @@ tags:
 
 ```shell
 # 必须用管理员权限，
+
 # 关闭 Hyper-v
 bcdedit /set hypervisorlaunchtype off
+
 # 开启 Hyper-v
 bcdedit /set hypervisorlaunchtype off
 
