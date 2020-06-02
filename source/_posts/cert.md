@@ -8,6 +8,9 @@ tags:
 
 ### 常用证书文件格式说明
 
+    常见公钥后缀：pem crt key
+    常见私钥后缀：pfx p12 pem key
+
 ### PKCS 
     全称是 Public-Key Cryptography Standards 
     是由 RSA 实验室与其它安全系统开发商为促进公钥密码的发展而制订的一系列标准，PKCS 目前共发布过 15 个标准。 
