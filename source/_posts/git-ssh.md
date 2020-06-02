@@ -1,5 +1,5 @@
 ---
-title: '环境配置文件'
+title: 'git ssh 生成'
 date: 2015-10-23 10:40:33
 tags: 
   - linux
