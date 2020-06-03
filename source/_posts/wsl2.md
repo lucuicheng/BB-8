@@ -15,7 +15,7 @@ tags:
 bcdedit /set hypervisorlaunchtype off
 
 # 开启 Hyper-v
-bcdedit /set hypervisorlaunchtype off
+bcdedit /set hypervisorlaunchtype on
 
 ```
 
