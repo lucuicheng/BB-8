@@ -1,12 +1,12 @@
 ---
-title: 'centos7 python 源码安装'
+title: 'centos7 python3 源码安装'
 date: 2020-07-15 10:40:33
 tags: 
   - linux
   - python
 ---
 ### 备注 
-    centos 环境下 不建议完全直接删除原有自带的python, 可能会造成 yum 无法使用
+    centos 环境下 不建议完全直接删除原有自带的python, 可能会造成 yum 等无法使用
     如果想要完全卸载自带python，请使用以下命令：
 ```shell script
 # 卸载
@@ -21,7 +21,7 @@ whereis python
 
 ### 准备依赖
 ```shell script
-yum install wget openssl-devel bzip2-devel expat-devel gdbm-devel readline-devel sqlite-devel
+yum install wget openssl-devel bzip2-devel expat-devel gdbm-devel readline-devel sqlite-devel python3-devel
 ```
 ### 指定源码包存放位置，以下都在该位置进行
 ```shell script
@@ -44,9 +44,9 @@ cd Python-3.8.4
 
 make && make install
 
-ln -s /usr/local/python/bin/python3 /usr/bin/python
+ln -s /usr/local/python/bin/python3 /usr/bin/python3
 
-ln -s /usr/local/python/bin/pip3 /usr/bin/pip
+ln -s /usr/local/python/bin/pip3 /usr/bin/pip3
 ```
 
 ### 检查安装
@@ -54,7 +54,5 @@ ln -s /usr/local/python/bin/pip3 /usr/bin/pip
 ```shell script
 python -V
 ```
-
-### s
 
 
