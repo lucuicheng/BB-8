@@ -1,3 +1,11 @@
+---
+title: 'k8s 本地测试环境搭建'
+date: 2020-06-13 10:40:33
+tags: 
+  - linux
+  - docker
+  - wsl2
+---
 
 ### 安装king
 ```shell script
