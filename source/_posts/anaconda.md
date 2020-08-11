@@ -8,6 +8,10 @@ tags:
 ---
 
 ```shell script
+%ANACONDA_HOME% = C:\Users\mklop\anaconda3
+```
+
+```shell script
 %ANACONDA_HOME%
 %ANACONDA_HOME%\Scripts
 %ANACONDA_HOME%\Library\bin
