@@ -1,5 +1,5 @@
 ---
-title: 'git ssh 生成'
+title: 'gradle windows 10 基础配置'
 date: 2018-11-23 10:40:33
 tags: 
   - gradle
