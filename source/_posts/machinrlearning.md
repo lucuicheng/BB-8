@@ -22,6 +22,7 @@ conda create -n pytorch python=3.7
 ### 直接安装
 ```shell script
 conda install pytorch torchvision cudatoolkit=10.2 -c pytorch
+# 使用国内源时，不需要后面的 -c pytorch
 ```
 
 ### 问题解决
@@ -39,4 +40,19 @@ conda install pytorch torchvision cudatoolkit=10.2 -c pytorch
     3.执行：set-ExecutionPolicy RemoteSigned即可 选择 Y 
     
     一定要以管理员的身份运行PowerShell，不是cmd窗口
+```
+
+### 国内源
+```shell script
+ssl_verify: true
+channels:
+  - https://mirrors.tuna.tsinghua.edu.cn/anaconda/pkgs/free/
+  - https://mirrors.tuna.tsinghua.edu.cn/anaconda/cloud/conda-forge
+  - https://mirrors.tuna.tsinghua.edu.cn/anaconda/cloud/msys2/
+  - https://mirrors.tuna.tsinghua.edu.cn/anaconda/cloud/pytorch/
+  - https://mirrors.ustc.edu.cn/anaconda/pkgs/main/
+  - defaults
+show_channel_urls: true
+  
+
 ```
