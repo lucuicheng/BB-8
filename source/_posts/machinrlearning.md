@@ -55,3 +55,9 @@ channels:
   - defaults
 show_channel_urls: true
 ```
+
+### 离线安装部分内容
+    注意需要在包的位置运行， 下载地址 报错信息中获取
+```shell script
+conda install --use-local pytorch-1.6.0-py3.7_cuda102_cudnn7_0.tar.bz2 
+```
