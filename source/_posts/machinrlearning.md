@@ -43,6 +43,7 @@ conda install pytorch torchvision cudatoolkit=10.2 -c pytorch
 ```
 
 ### 国内源
+    修改位置为  ‪C:\Users\mklop\.condarc
 ```shell script
 ssl_verify: true
 channels:
@@ -53,6 +54,4 @@ channels:
   - https://mirrors.ustc.edu.cn/anaconda/pkgs/main/
   - defaults
 show_channel_urls: true
-  
-
 ```
