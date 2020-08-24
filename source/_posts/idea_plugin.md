@@ -9,3 +9,8 @@ tags:
 ### idea的插件
 + nginx support
     + 本地 nginx 管理，可以看日志等
+    + 配置界面
+    
+    ![](http://qfjs1yfgm.hd-bkt.clouddn.com/%E6%89%B9%E6%B3%A8%202020-08-24%20104030.png)
+    
+     
