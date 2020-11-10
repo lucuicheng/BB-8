@@ -12,3 +12,6 @@ top: true
 ```shell script
 199.232.4.133 raw.githubusercontent.com
 ```
+
+![avatar](https://gitee.com/lucuicheng/pic/raw/master/blog/批注%202020-08-24%20104030.png
+)
