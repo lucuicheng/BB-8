@@ -48,6 +48,24 @@ sudo docker run -d --restart=always -p 8500:8500 -v /opt/data/consul:/consul/dat
 
 <!-- more -->
 
+### 非 root 用户运行docker
+```shell script
+# 1、 首先创建docker用户组，如果docker用户组存在可以忽略
+sudo groupadd docker
+```
+```shell script
+# 2、把用户添加进docker组中
+sudo gpasswd -a ${USER} docker
+```
+```shell script
+# 3、重启docker
+sudo service docker restart
+```
+```shell script
+# 4、如果普通用户执行docker命令，如果提示get …… dial unix /var/run/docker.sock权限不够，则修改/var/run/docker.sock权限使用root用户执行如下命令，即可
+sudo chmod a+rw /var/run/docker.sock
+```
+
 ### 私服
 
 ```shell
