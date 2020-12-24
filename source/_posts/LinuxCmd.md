@@ -142,5 +142,9 @@ pip install shadowsocks
 ssserver -p 8281 -k password -m rc4-md5 -d start
 ```
 
-
+### 主机名修改
+```shell script
+hostnamectl set-hostname node01
+hostname
+```
 
